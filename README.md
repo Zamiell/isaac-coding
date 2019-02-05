@@ -94,9 +94,9 @@ TODO
 
 When coding your Isaac mod, what style should you code in? The answer is simple. Use the most popular style guide in the world: http://lua-users.org/wiki/LuaStyleGuide
 
-A lot of people try to use conventions from old programming languages when they learn new ones (including me back in the day). Jumping between JavaScript, Python, and Perl, I had hard-set notions about what was "correct" in the questions of whether to use tabs or spaces, how to break up long lines, and so forth.
+A lot of people try to use conventions from old programming languages when they learn new ones. Jumping between JavaScript, Python, and Perl, I used to have hard-set notions about what was "correct" in terms of whether to use tabs or spaces, how to break up long lines, and so forth.
 
-A really good learning point for me was when I started getting into the [Golang](https://golang.org) programming language. Golang has a thing called `gofmt`. How it works is that, upon saving a file, all code is formatted automatically using Golang conventions - you don't even have to think about it. Spaces are automatically converted to tabs, extra whitespace is removed, and so forth.
+A really good learning point for me was when I started getting into the [Golang](https://golang.org) programming language in 2014. Golang has a thing called `gofmt`. How it works is that, upon saving a file, all code is formatted automatically using Golang conventions - you don't even have to think about it. Spaces are automatically converted to tabs, extra whitespace is removed, and so forth.
 
 At first, this was unsightly to me and I disliked it. But after some time, I got used to having all my Golang code look a certain way, and it no longer bothered me as much. However, when I went out on the internet to read other people's code and copy code-snippets from other programs, I realized something amazing. I could look at any piece of Golang code out there that someone else wrote and be able to instantly read it without being distracted by a different coding style. And furthermore, **I could just copy-paste their code into my own code without having to fix anything!** Coming from other languages, this was NOT the norm.
 
