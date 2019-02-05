@@ -59,6 +59,8 @@ It is now 2019, so you should probably be using VSCode.
 
 **TL;DR Use VSCode, you fucking noobs.**
 
+<br />
+
 ## Installation
 
 These are step by step instructions for getting a working Isaac coding environment on a fresh Windows 10. If you are on macOS or Linux, you'll have to tweak the instructions accordingly.
@@ -75,6 +77,8 @@ Execute the following commands in an administrative command-prompt:
   * `code --install-extension vscode-lua`
 
 TODO
+
+<br />
 
 ## Style
 
@@ -94,6 +98,8 @@ So, when you write your own Isaac mods, don't just code it however the fuck you 
   * **put spaces between your operators!**
   * **don't have multiple statements on the same line!**
   * **just read the fucking style guide, it takes 5 minutes!**
+
+<br />
 
 ## Community
 
