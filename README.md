@@ -2,13 +2,13 @@
 
 If you are looking to code Lua mods for *[The Binding of Isaac: Afterbirth+](https://store.steampowered.com/app/570660/The_Binding_of_Isaac_Afterbirth/)*, you might be wondering: **what text editor should I use?** Good question.
 
-### The Short Answer
+## The Short Answer
 
 Are you looking to get started as fast as possible? Do you have zero programming experience? Will you be only working on mods that are around 100-200 lines of code?
 
 If yes to any of the above questions, then use **[Notepad++](https://notepad-plus-plus.org/download/v7.6.3.html)**. You may now stop reading this tutorial.
 
-### Needed Features
+## The Long Answer
 
 As an expert Isaac mod programmer, Notepad++ doesn't cut it. There are two main things that it lacks:
 
