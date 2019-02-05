@@ -10,7 +10,7 @@ If yes to any of the above questions, then use **[Notepad++](https://notepad-plu
 
 ## The Long Answer
 
-As an expert Isaac mod programmer, Notepad++ doesn't cut it. There's two main things that it lacks:
+As an expert Isaac mod programmer, Notepad++ doesn't cut it. There are two main things that it lacks:
 
 ### 1) Auto-Completion
 
