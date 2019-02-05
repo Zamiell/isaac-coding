@@ -4,6 +4,16 @@ If you are looking to code Lua mods for *[The Binding of Isaac: Afterbirth+](htt
 
 <br />
 
+## Table of Contents
+
+1. [The Short Answer](#the-short-answer)
+2. [The Long Answer](#the-long-answer)
+3. [Installation](#installation)
+4. [Style](#style)
+5. [Community](#community)
+
+<br />
+
 ## The Short Answer
 
 Are you looking to get started as fast as possible? Do you have zero programming experience? Will you be only working on mods that are around 100-200 lines of code or less? Are you a casual piece of shit?
