@@ -2,11 +2,15 @@
 
 If you are looking to code Lua mods for *[The Binding of Isaac: Afterbirth+](https://store.steampowered.com/app/570660/The_Binding_of_Isaac_Afterbirth/)*, you might be wondering: **what text editor should I use?** Good question.
 
+<br />
+
 ## The Short Answer
 
 Are you looking to get started as fast as possible? Do you have zero programming experience? Will you be only working on mods that are around 100-200 lines of code?
 
 If yes to any of the above questions, then use **[Notepad++](https://notepad-plus-plus.org/download/v7.6.3.html)**. You may now stop reading this tutorial.
+
+<br />
 
 ## The Long Answer
 
@@ -23,6 +27,8 @@ Nowadays, most programmers use [linters](https://en.wikipedia.org/wiki/Lint_(sof
 For example, say that you accidentally make a typo in a variable name (which we all do from time to time). If your text-editor has a linter enabled, it will automatically notify you that the variable does not exist. Words cannot express how useful this kind of thing is, which saves hours of debugging time in the long-run. 
 
 The best Lua linter out there is called [Luacheck](https://github.com/mpeterv/luacheck/), so you will want a text-editor that supports that.
+
+<br />
 
 ### The Text Editor Meta
 
