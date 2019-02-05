@@ -67,7 +67,7 @@ These are step by step instructions for getting a working Isaac coding environme
 
 Execute the following commands in an administrative command-prompt:
 
-* Install [Chocolatey](https://chocolatey.org/):
+* Install [Chocolatey](https://chocolatey.org/) (if for some reason you don't have it installed already):
   * `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 * Install Luacheck:
   * https://github.com/mpeterv/luacheck/releases
