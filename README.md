@@ -57,7 +57,7 @@ VSCode was also released in 2015 by Microsoft. It uses almost the exact same tec
 
 It is now 2019, so you should probably be using VSCode. It has Luacheck integration, tab-completion, it is fast, everyone uses it, and it might also make you a more attractive and charismatic person.
 
-**TL;DR Use VSCode, you fucking noobs.**
+**TL;DR Use VSCode.**
 
 <br />
 
