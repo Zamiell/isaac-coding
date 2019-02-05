@@ -22,7 +22,7 @@ Being able to tab-complete function calls saves you a lot of time. If you've eve
 
 #### 2) Linting
 
-Nowadays, most programmers use [linters](https://en.wikipedia.org/wiki/Lint_(software)), which are static analysis tools to help catch bugs and force adherence to a style guide. Linters are **especially useful** in weakly-typed languages like [Lua](https://github.com/mpeterv/luacheck/), [Python](https://www.pylint.org/), and [JavaScript](https://eslint.org/). Even in strongly-typed languages such as [Golang](https://github.com/golangci/golangci-lint/), linters are quickly becoming the industry standard. If you haven't heard of linters before, it is time to crawl out from underneath that rock and join us in 2019.
+Nowadays, most programmers use [linters](https://en.wikipedia.org/wiki/Lint_(software)), which are static analysis tools to help catch bugs and force adherence to a style guide. Linters are **especially useful** in weakly-typed languages such as [Lua](https://github.com/mpeterv/luacheck/), [Python](https://www.pylint.org/), and [JavaScript](https://eslint.org/). Even in strongly-typed languages such as [Golang](https://github.com/golangci/golangci-lint/), linters are quickly becoming the industry standard. If you haven't heard of linters before, it is time to crawl out from underneath that rock and join us in 2019.
 
 For example, say that you accidentally make a typo in a variable name (which we all do from time to time). If your text-editor has a linter enabled, it will automatically notify you that the variable does not exist. Words cannot express how useful this kind of thing is, which saves hours of debugging time in the long-run. 
 
