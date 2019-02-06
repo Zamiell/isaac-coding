@@ -46,7 +46,7 @@ The best Lua linter out there is called [Luacheck](https://github.com/mpeterv/lu
 
 Here's a brief summary of the text-editor meta - which text-editor is the best?
 
-Notepad++ is great for both general file viewing and amateur programming. But at some point you need something better, as you will want your code to be compiled and linted on the fly.
+Notepad++ is great for both general file viewing and amateur programming. But at some point you will want your code to be compiled and linted on the fly.
 
 #### ZeroBrane
 
