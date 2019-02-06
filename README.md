@@ -91,7 +91,7 @@ Execute the following commands in an administrative command-prompt:
   * `mkdir "C:\Program Files\Microsoft VS Code\Lua\"`
   * `wget "https://github.com/mpeterv/luacheck/releases/download/0.23.0/luacheck.exe" -O "C:\Program Files\Microsoft VS Code\Lua\luacheck.exe"` <br />
   (you can put it anywhere you want, but we might as well put it here)
-* Download and import my VSCode user settings:
+* Download and import a solid set of starting VSCode user settings:
   * `wget "https://raw.githubusercontent.com/Zamiell/isaac-coding/master/settings.json" -O "%APPDATA%\Code\User\settings.json"` <br />
   (feel free to tweak these to your liking)
 * Go to your mod directory:
