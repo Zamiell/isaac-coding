@@ -7,6 +7,9 @@
     // This matches the default Luacheck rule
     "editor.rulers": [120],
 
+    // IntelliSense tab completion is off by default
+    "editor.tabCompletion": "on",
+
     "editor.wordWrap": "on",
 
     // Linux line endings are commonly used as a programming standard
