@@ -52,7 +52,7 @@ The typically solution for this kind of functionality is to get an [IDE](https:/
 
 In order to get auto-completion in ZeroBrane, you will need to use [Yusyuriv's helpful repository](https://github.com/Yusyuriv/Afterbirth-API-for-ZeroBrane). Unfortunately, this is not completely up to date for the latest patches.
 
-I don't have any experience setting up ZeroBrane with Luacheck, although [it does appear possible as of July 2017](https://github.com/pkulchenko/ZeroBraneStudio/issues/768). You are on your own here.
+I don't have any experience setting up ZeroBrane with Luacheck, although [it does appear possible as of July 2017](https://github.com/pkulchenko/ZeroBraneStudio/issues/768). I can't imagine that it is that hard, but you are on your own here.
 
 ZeroBrane isn't for everyone. One problem with it is its extensibility - you may not be able to configure it to your liking. 
 Lastly, you may feel more comfortable in using a general-purpose editor that is not completely dedicated to Lua, especially if you program other projects in JavaScript, Python, etc. So if you don't want to use ZeroBrane, then let's talk about general-purpose editors.
