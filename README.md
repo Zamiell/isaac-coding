@@ -104,7 +104,7 @@ Execute the following commands in an administrative command-prompt:
   (feel free to tweak these to your liking)
 * Go to your mod directory:
   * `cd "%USERPROFILE%\Documents\My Games\Binding of Isaac Afterbirth+ Mods\my-mod"`
-* Download the default [.luacheckrc file](https://luacheck.readthedocs.io/en/stable/config.html) for new Isaac projects:
+* Download the default [.luacheckrc file](https://luacheck.readthedocs.io/en/stable/config.html) for [new Isaac projects](https://github.com/Zamiell/isaac-coding/blob/master/.luacheckrc):
   * `wget https://raw.githubusercontent.com/Zamiell/isaac-coding/master/.luacheckrc`
 * Open VSCode using this directory as the root of the project:
   * `code .`
