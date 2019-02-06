@@ -1,0 +1,23 @@
+{
+    "editor.fontSize": 16,
+
+    // We want to see spaces and tabs
+    "editor.renderWhitespace": "all",
+
+    // This matches the default Luacheck rule
+    "editor.rulers": [120],
+
+    "editor.wordWrap": "on",
+
+    // Linux line endings are commonly used as a programming standard
+    "files.eol": "\n",
+
+    // We need to to tell the vscode-lua extension where the luacheck binary is
+    "lua.luacheckPath": "C:\\Program Files\\Microsoft VS Code\\Lua\\luacheck.exe",
+
+    // Show the full path of the file in the window title
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+
+    // Don't show the VSCode welcome screen
+    "workbench.startupEditor": "newUntitledFile",
+}
