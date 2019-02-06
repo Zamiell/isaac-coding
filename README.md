@@ -42,10 +42,10 @@ The best Lua linter out there is called [Luacheck](https://github.com/mpeterv/lu
 
 #### 3) Misc.
 
-* The ability to manage folder structures with minimal hassle (e.g. a "project" view).
-* Git integration, so that you can see which files are changed and so forth. (If you don't already use Git, for the love of god why not, you casual scum.)
 * Good syntax highlighting.
+* The ability to manage folder structures with minimal hassle (e.g. a "project" view).
 * Cross-file search, so if you are working on multiple mods at a time you can search all of them easily.
+* Git integration, so that you can see which files are changed and so forth. (If you don't already use Git, for the love of god why not.)
 
 <br />
 
