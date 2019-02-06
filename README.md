@@ -65,7 +65,7 @@ However, Sublime Text is not free (costing $80) and is not open-source. GitHub c
 
 VSCode was also released in 2015 by Microsoft. It uses almost the exact same technology as Atom (being Electron / Chromium based), but it remains under active development by the company. What makes VSCode stand out from Atom is its speed - the editor is noticably faster than Atom, but spouts nearly identical features and equally robust customizability. Because of this, VSCode exploded in popularity in 2018 and has now taken the throne from Atom as the best text-editor for general-purpose programming.
 
-It is now 2019, so you should probably be using VSCode. It has Luacheck integration, tab-completion, it is fast, everyone uses it, and it might also make you a more attractive and charismatic person.
+It is now 2019, so you should probably be using VSCode. It has Luacheck integration, AB+ auto-completion, it is fast, everyone uses it, and it might also make you a more attractive and charismatic person.
 
 **TL;DR Use VSCode.**
 
