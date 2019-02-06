@@ -75,7 +75,7 @@ It is now 2019, so you should probably be using VSCode. It has Luacheck integrat
 
 ## Installation
 
-These are step by step instructions for getting a working Isaac coding environment (VSCode + Luacheck) on a fresh Windows 10. If you are on macOS or Linux, you will have to tweak the commands accordingly.
+These are step by step instructions for getting a working Isaac coding environment (VSCode + auto-complete + Luacheck) on a fresh Windows 10. If you are on macOS or Linux, you will have to tweak the commands accordingly.
 
 Execute the following commands in an administrative command-prompt:
 
@@ -83,9 +83,11 @@ Execute the following commands in an administrative command-prompt:
   * `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 * Install [VSCode](https://code.visualstudio.com/):
   * `choco install vscode -y`
-* Install the [vscode-lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) VSCode extension:
   * `refreshenv`
+* Install the [vscode-lua extension](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) :
   * `code --install-extension trixnz.vscode-lua`
+* Install the [Afterbirth+ extension](https://marketplace.visualstudio.com/items?itemName=Zamiel.vscode-isaac-afterbirth-plus):
+  * `code --install-extension Zamiel.vscode-isaac-afterbirth-plus`
 * Download Luacheck:
   * `choco install wget -y`
   * `mkdir "C:\Program Files\Microsoft VS Code\Lua\"`
@@ -96,7 +98,7 @@ Execute the following commands in an administrative command-prompt:
   (feel free to tweak these to your liking)
 * Go to your mod directory:
   * `cd "%USERPROFILE%\Documents\My Games\Binding of Isaac Afterbirth+ Mods\my-mod"`
-* Download the default .luacheckrc file for Isaac projects:
+* Download the default .luacheckrc file for new Isaac projects:
   * `wget https://raw.githubusercontent.com/Zamiell/isaac-coding/master/.luacheckrc`
 * Open VSCode using this directory as the root of the project:
   * `code .`
@@ -107,7 +109,7 @@ Execute the following commands in an administrative command-prompt:
   * In this pane, luacheck will report that there is an "unused variable 'test'".
   * You can leave the panel up as you program.
 
-When you program your Isaac mods, all of your code should "pass" the linter with 0 warnings and 0 errors!
+When you program your Isaac mods, all of your code should "pass" the linter with 0 warnings and 0 errors.
 
 <br />
 
@@ -130,9 +132,7 @@ When you write your own Isaac mods, you could just code it however you want. No-
 While Lua does not have an official style standard [like Python does](https://www.python.org/dev/peps/pep-0008/), **the most popular Lua style guide in the world is the [Lua-Users Wiki style guide](http://lua-users.org/wiki/LuaStyleGuide)**, so it makes a lot of sense to use this and stick to it.
 
 For the love of readability, and in accordance with the Lua-Users Wiki style guide:
-  * **don't use tabs!**
-  * **use 2 spaces to indent!**
-  * **put spaces between your operators!**
+  * **don't use tabs, use 2 spaces to indent!**
   * **don't have multiple statements on the same line!**
   * **write comments that explain what the code does!**
   * **read the style guide, it takes 5 minutes!**
