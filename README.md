@@ -26,7 +26,7 @@ If you answered yes to any of the above questions, then use **[Notepad++](https:
 
 ## The Long Answer
 
-For experts, Notepad++ doesn't cut it. There are two main things that it lacks:
+For experts, Notepad++ doesn't cut it. Here's some stuff it is missing:
 
 #### 1) Auto-Completion
 
@@ -39,6 +39,13 @@ Nowadays, most programmers use [linters](https://en.wikipedia.org/wiki/Lint_(sof
 For example, say that you accidentally make a typo in a variable name (which we all do from time to time). If your text-editor has a linter enabled, it will automatically notify you that the variable does not exist. Words cannot express how useful this kind of thing is, which saves hours of debugging time in the long-run. 
 
 The best Lua linter out there is called [Luacheck](https://github.com/mpeterv/luacheck/), so you will want a text-editor that supports that.
+
+#### 3) Misc.
+
+* The ability to manage folder structures with minimal hassle (e.g. a "project" view).
+* Git integration, so that you can see which files are changed and so forth. If you don't already use Git, you should, and shame on you, you casual shitlord.
+* Good syntax highlighting.
+* Cross-file search, so if you are working on multiple mods at a time you can search all of them easily.
 
 <br />
 
