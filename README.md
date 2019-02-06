@@ -75,20 +75,39 @@ It is now 2019, so you should probably be using VSCode. It has Luacheck integrat
 
 ## Installation
 
-These are step by step instructions for getting a working Isaac coding environment on a fresh Windows 10. If you are on macOS or Linux, you will have to tweak the instructions accordingly.
+These are step by step instructions for getting a working Isaac coding environment (VSCode + Luacheck) on a fresh Windows 10. If you are on macOS or Linux, you will have to tweak the commands accordingly.
 
 Execute the following commands in an administrative command-prompt:
 
 * Install [Chocolatey](https://chocolatey.org/) (if for some reason you don't have it installed already):
   * `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
-* Install Luacheck:
-  * https://github.com/mpeterv/luacheck/releases
-* Install [VSCode](https://code.visualstudio.com/) and the Lua extension:
+* Install [VSCode](https://code.visualstudio.com/):
   * `choco install vscode -y`
+* Install the [vscode-lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) VSCode extension:
   * `refreshenv`
-  * `code --install-extension vscode-lua`
+  * `code --install-extension trixnz.vscode-lua`
+* Download Luacheck:
+  * `choco install wget -y`
+  * `mkdir "C:\Program Files\Microsoft VS Code\Lua\"`
+  * `wget "https://github.com/mpeterv/luacheck/releases/download/0.23.0/luacheck.exe" -O "C:\Program Files\Microsoft VS Code\Lua\luacheck.exe"` <br />
+  (you can put it anywhere you want, but we might as well put it here)
+* Download and import my VSCode user settings:
+  * `wget "https://raw.githubusercontent.com/Zamiell/isaac-coding/master/settings.json" -O "%APPDATA%\Code\User\settings.json" <br />
+  (feel free to tweak these to your liking)
+* Go to your mod directory:
+  * `cd "%USERPROFILE%\Documents\My Games\Binding of Isaac Afterbirth+ Mods\my-mod"`
+* Download the default .luacheckrc file for Isaac projects:
+  * `wget https://raw.githubusercontent.com/Zamiell/isaac-coding/master/.luacheckrc`
+* Open VSCode using this directory as the root of the project:
+  * `code .`
+* Test to see if it the linter is working:
+  * Make a new file called "test.lua".
+  * Type in "local test".
+  * In the bottom-left-hand corner, you should see one warning pop up. Click on it to make the "Problems" pane appear.
+  * In this pane, luacheck will report that there is an "unused variable 'test'".
+  * You can leave the panel up as you program.
 
-TODO
+When you program your Isaac mods, all of your code should "pass" the linter with 0 warnings and 0 errors!
 
 <br />
 
