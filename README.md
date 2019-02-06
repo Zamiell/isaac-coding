@@ -18,7 +18,7 @@ Sit down son, let's have a chat.
 
 ## The Short Answer
 
-Are you looking to get started as fast as possible? Do you have zero programming experience? Will you be only working on mods that are around 100-200 lines of code or less? Are you a casual piece of shit?
+Are you looking to get started as fast as possible? Do you have zero programming experience? Will you be only working on mods that are around 100-200 lines of code or less? Are you a casual shitlord?
 
 If you answered yes to any of the above questions, then use **[Notepad++](https://notepad-plus-plus.org/download/v7.6.3.html)**. You may now stop reading this tutorial.
 
