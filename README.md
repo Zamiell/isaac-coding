@@ -75,7 +75,7 @@ It is now 2019, so you should probably be using VSCode. It has Luacheck integrat
 
 ## Installation
 
-These are step by step instructions for getting a working Isaac coding environment on a fresh Windows 10. If you are on macOS or Linux, you'll have to tweak the instructions accordingly.
+These are step by step instructions for getting a working Isaac coding environment on a fresh Windows 10. If you are on macOS or Linux, you will have to tweak the instructions accordingly.
 
 Execute the following commands in an administrative command-prompt:
 
