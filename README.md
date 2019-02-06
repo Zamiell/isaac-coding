@@ -46,11 +46,11 @@ The best Lua linter out there is called [Luacheck](https://github.com/mpeterv/lu
 
 Here's a brief summary of the text-editor meta - which text-editor is the best?
 
-Notepad++ has historically been extremely popular among amateur programmers, but at some point you need something better, as you will want your code to be compiled and linted on the fly.
+Notepad++ is great for both general file viewing and amateur programming. But at some point you need something better, as you will want your code to be compiled and linted on the fly.
 
 #### ZeroBrane
 
-The typically solution for this kind of functionality is to get an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), or integrated development environment. Lua's best IDE is called [ZeroBrane Studio](https://studio.zerobrane.com/). This is even the solution [encouraged by Spider in the official API](https://moddingofisaac.com/docs/debugging.html).
+Historically, the typical solution to get this kind of functionality is to use an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), or integrated development environment. Lua's best IDE is called [ZeroBrane Studio](https://studio.zerobrane.com/). This is even the solution [encouraged by Spider in the official API](https://moddingofisaac.com/docs/debugging.html).
 
 In order to get auto-completion in ZeroBrane, you will need to use [Yusyuriv's helpful repository](https://github.com/Yusyuriv/Afterbirth-API-for-ZeroBrane). Unfortunately, this is not completely up to date for the latest patches.
 
