@@ -92,7 +92,7 @@ Execute the following commands in an administrative command-prompt:
   * `wget "https://github.com/mpeterv/luacheck/releases/download/0.23.0/luacheck.exe" -O "C:\Program Files\Microsoft VS Code\Lua\luacheck.exe"` <br />
   (you can put it anywhere you want, but we might as well put it here)
 * Download and import my VSCode user settings:
-  * `wget "https://raw.githubusercontent.com/Zamiell/isaac-coding/master/settings.json" -O "%APPDATA%\Code\User\settings.json" <br />
+  * `wget "https://raw.githubusercontent.com/Zamiell/isaac-coding/master/settings.json" -O "%APPDATA%\Code\User\settings.json"` <br />
   (feel free to tweak these to your liking)
 * Go to your mod directory:
   * `cd "%USERPROFILE%\Documents\My Games\Binding of Isaac Afterbirth+ Mods\my-mod"`
