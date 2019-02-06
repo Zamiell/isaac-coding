@@ -125,7 +125,7 @@ This "feature" of Golang is like a superpower and it really feels amazing. But g
 
 This lesson that I stumbled upon has been well known to programmers who have come before me. Guido, the creator of Python, famously said: ["Readability counts"](https://www.python.org/dev/peps/pep-0008/). One of Guido's great insights was that code is read much more often than it is written.
 
-When you write your own Isaac mods, you could just code it however the fuck you want. No-one is stopping you, and it is just an Isaac mod, after all. But readability counts! **Don't write Lua like you would write Python, JavaScript, or anything else. Write Lua like how other Lua coders do.**
+When you write your own Isaac mods, you could just code it however you want. No-one is stopping you, and it is just an Isaac mod, after all. But remember, readability counts! **Don't write Lua like you would write Python, JavaScript, or anything else. Write Lua like how other Lua coders do.**
 
 While Lua does not have an official style standard [like Python does](https://www.python.org/dev/peps/pep-0008/), **the most popular Lua style guide in the world is the [Lua-Users Wiki style guide](http://lua-users.org/wiki/LuaStyleGuide)**, so it makes a lot of sense to use this and stick to it.
 
