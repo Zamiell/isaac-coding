@@ -1,6 +1,8 @@
 # Coding Mods for The Binding of Isaac: Afterbirth+
 
-If you are looking to code Lua mods for *[The Binding of Isaac: Afterbirth+](https://store.steampowered.com/app/570660/The_Binding_of_Isaac_Afterbirth/)*, you might be wondering: **what text editor should I use?** Good question.
+You might be wondering: **what text editor should I use to code Lua mods for *[The Binding of Isaac: Afterbirth+](https://store.steampowered.com/app/570660/The_Binding_of_Isaac_Afterbirth/)*?**
+
+Sit down son, let's have a chat.
 
 <br />
 
