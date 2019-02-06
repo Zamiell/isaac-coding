@@ -102,9 +102,11 @@ At first, this was unsightly to me and I disliked it. But after some time, I got
 
 This "feature" of Golang is like a superpower and it really feels amazing. But going beyond Golang, I realized that there is nothing stopping this from happening in all programming languages - people just have to code in the most-popular way for whatever that specific programming language is. So now, whenever I program, **I go out of my way to always code in the "official" or most-popular style of the programming language**, whether it be tabs, spaces, or anything in between.
 
-Of course, little old me did not stumble upon anything new, as this is actually a concept that has been understood for a long time. As Guido, the creator of Python famously said: ["Readability counts"](https://www.python.org/dev/peps/pep-0008/).
+The lesson that I stumbled upon has been well known to the programmers who came before me. As Guido, the creator of Python famously said: ["Readability counts"](https://www.python.org/dev/peps/pep-0008/). One of Guido's great insights was that code is read much more often than it is written.
 
-So, when you write your own Isaac mods, don't just code it however the fuck you want. I mean, you can. No-one is stopping you, and it is just an Isaac mod, after all. But readability counts! **Don't write Lua like you would write Python or JavaScript or whatever else. Write Lua like how other people write Lua.** For the love of readability, and in accordance with the [Lua-Users Wiki style guide](http://lua-users.org/wiki/LuaStyleGuide), the most popular Lua style guide in the world:
+So, when you write your own Isaac mods, don't just code it however the fuck you want. I mean, you can. No-one is stopping you, and it is just an Isaac mod, after all. But readability counts! **Don't write Lua like you would write Python, JavaScript, or anything else. Write Lua like how the other professional Lua coders do.**
+
+For the love of readability, and in accordance with the [Lua-Users Wiki style guide](http://lua-users.org/wiki/LuaStyleGuide), the most popular Lua style guide in the world:
   * **don't use tabs!**
   * **use 2 spaces to indent!**
   * **put spaces between your operators!**
