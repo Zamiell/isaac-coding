@@ -113,29 +113,31 @@ When you program your Isaac mods, all of your code should "pass" the linter with
 
 ## Style
 
-When coding your Isaac mod, what style should you code in? The answer is simple. Use the most popular style guide in the world: http://lua-users.org/wiki/LuaStyleGuide
+When you code your Isaac mods in Lua, you might want to stop to think about the style that you code in.
 
-A lot of people try to use conventions from old programming languages when they learn new ones. Jumping between JavaScript, Python, and Perl, I used to have hard-set notions about what was "correct" in terms of whether to use tabs or spaces, how to break up long lines, and so forth.
+It is fairly common for programmers to use conventions from old programming languages when they learn new ones. Jumping between JavaScript, Python, and Perl, I used to have hard-set notions about what was "correct" in terms of whether to use tabs or spaces, how to break up long lines, and so forth.
 
 A really good learning point for me was when I started getting into the [Golang](https://golang.org) programming language in 2014. Golang has a thing called `gofmt`. How it works is that, upon saving a file, all code is formatted automatically using Golang conventions - you don't even have to think about it. Spaces are automatically converted to tabs, extra whitespace is removed, and so forth.
 
-At first, this was unsightly to me and I disliked it. But after some time, I got used to having all my Golang code look a certain way, and it no longer bothered me as much. However, when I went out on the internet to read other people's code and copy code-snippets from other programs, I realized something amazing. I could look at any piece of Golang code out there that someone else wrote and be able to instantly read it without being distracted by a different coding style. And furthermore, **I could just copy-paste their code into my own code without having to fix anything!** Coming from other languages, this was NOT the norm.
+At first, this was unsightly to me and I disliked it. But after some time, I got used to having all my Golang code look a certain way, and it no longer bothered me as much. However, when I went out on the internet to read other people's code and copy code-snippets from other programs, I realized something amazing. I could look at any piece of Golang code out there and be able to instantly read it without being distracted by a different coding style. And furthermore, **I could just copy-paste their code into my own code without having to fix anything!** Coming from other languages, this was NOT the norm.
 
-This "feature" of Golang is like a superpower and it really feels amazing. But going beyond Golang, I realized that there is nothing stopping this from happening in all programming languages - people just have to code in the most-popular way for whatever that specific programming language is. So now, whenever I program, **I go out of my way to always code in the "official" or most-popular style of the programming language**, whether it be tabs, spaces, or anything in between.
+This "feature" of Golang is like a superpower and it really feels amazing. But going beyond Golang, I realized that there is nothing stopping this from happening in all programming languages - people just have to code in the most-popular way for whatever that specific programming language is. So now, whenever I program, **I go out of my way to always code in the official (or most-popular) style of the programming language**, whether it be tabs, spaces, or anything in between.
 
-This lesson that I stumbled upon has been well known to the programmers who came before me. As Guido, the creator of Python famously said: ["Readability counts"](https://www.python.org/dev/peps/pep-0008/). One of Guido's great insights was that code is read much more often than it is written.
+This lesson that I stumbled upon has been well known to programmers who have come before me. Guido, the creator of Python, famously said: ["Readability counts"](https://www.python.org/dev/peps/pep-0008/). One of Guido's great insights was that code is read much more often than it is written.
 
-So, when you write your own Isaac mods, don't just code it however the fuck you want. I mean, you can. No-one is stopping you, and it is just an Isaac mod, after all. But readability counts! **Don't write Lua like you would write Python, JavaScript, or anything else. Write Lua like how the other professional Lua coders do.**
+When you write your own Isaac mods, you could just code it however the fuck you want. No-one is stopping you, and it is just an Isaac mod, after all. But readability counts! **Don't write Lua like you would write Python, JavaScript, or anything else. Write Lua like how other Lua coders do.**
 
-For the love of readability, and in accordance with the [Lua-Users Wiki style guide](http://lua-users.org/wiki/LuaStyleGuide), the most popular Lua style guide in the world:
+While Lua does not have an official style standard [like Python does](https://www.python.org/dev/peps/pep-0008/), **the most popular Lua style guide in the world is the [Lua-Users Wiki style guide](http://lua-users.org/wiki/LuaStyleGuide)**, so it makes a lot of sense to use this and stick to it.
+
+For the love of readability, and in accordance with the Lua-Users Wiki style guide:
   * **don't use tabs!**
   * **use 2 spaces to indent!**
   * **put spaces between your operators!**
   * **don't have multiple statements on the same line!**
   * **write comments that explain what the code does!**
-  * **just read the style guide, it takes 5 minutes!**
+  * **read the style guide, it takes 5 minutes!**
 
-Take some pride in your mod and make it a joy to read for the other modders out there who want to know how it works, copy-paste code snippets, or collaborate with you.
+Take some pride in your mod and make it a joy to read for the other modders out there who want to know how it works, copy-paste code snippets, or collaborate with you to add code and fix bugs.
 
 <br />
 
