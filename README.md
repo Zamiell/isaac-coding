@@ -111,7 +111,10 @@ For the love of readability, and in accordance with the [Lua-Users Wiki style gu
   * **use 2 spaces to indent!**
   * **put spaces between your operators!**
   * **don't have multiple statements on the same line!**
+  * **write comments that explain what the code does!**
   * **just read the style guide, it takes 5 minutes!**
+
+Take some pride in your mod and make it a joy to read for the other modders out there who want to know how it works, copy-paste code snippets, or collaborate with you.
 
 <br />
 
