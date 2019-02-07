@@ -18,6 +18,9 @@
     // We need to to tell the vscode-lua extension where the luacheck binary is
     "lua.luacheckPath": "C:\\Program Files\\Microsoft VS Code\\Lua\\luacheck.exe",
 
+    // The default value is 5.1, but Isaac uses 5.3
+    "lua.targetVersion": "5.3",
+
     // Show the full path of the file in the window title
     "window.title": "${activeEditorLong}${separator}${rootName}",
 
