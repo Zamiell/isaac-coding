@@ -119,7 +119,7 @@ When you program your Isaac mods, all of your code should "pass" the linter with
 
 ## Style
 
-Hopefully the above tutorial was useful in getting you up to speed with VSCode and a working linter. You might also be interested to read my opinions on [coding style](https://github.com/Zamiell/isaac-coding/blob/master/Style.md), which are altogether unrelated to getting a coding environment set up.
+Hopefully the above tutorial was useful in getting you up to speed with a working text-editor and a working linter. You might also be interested to read my opinions on [coding style](https://github.com/Zamiell/isaac-coding/blob/master/Style.md), which are altogether unrelated to getting a coding environment set up.
 
 ## Community
 
