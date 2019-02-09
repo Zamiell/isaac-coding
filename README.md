@@ -26,17 +26,17 @@ If you answered yes to any of the above questions, then use **[Notepad++](https:
 
 For experts, Notepad++ doesn't cut it. Here is some stuff that it is missing:
 
-#### 1) Auto-Completion
-
-Being able to tab-complete function calls saves you a lot of time. If you've ever programmed in any kind of IDE before, you will know how useful this is. Enough said.
-
-#### 2) Linting
+#### 1) Linting
 
 Nowadays, most programmers use [linters](https://en.wikipedia.org/wiki/Lint_(software)), which are static analysis tools to help catch bugs and force adherence to a style guide. Linters are **especially useful** in weakly-typed languages such as [Lua](https://github.com/mpeterv/luacheck/), [Python](https://www.pylint.org/), and [JavaScript](https://eslint.org/). Even in strongly-typed languages such as [Golang](https://github.com/golangci/golangci-lint/), linters are quickly becoming the industry standard.
 
 Why are linters such a big deal? For example, say that you accidentally make a typo in a variable name (which we all do from time to time). If your text-editor has a linter enabled, it will automatically notify you that the variable does not exist. **Words cannot express** how useful this kind of thing is, which **saves hours of debugging time in the long-run**. 
 
 The best Lua linter out there is called [Luacheck](https://github.com/mpeterv/luacheck/), so you will want a text-editor that supports that.
+
+#### 2) Auto-Completion
+
+Being able to tab-complete function calls saves you a lot of time. If you've ever programmed in any kind of IDE before, you will know how useful this is. Enough said.
 
 #### 3) Misc.
 
@@ -57,9 +57,9 @@ Notepad++ is great for both general file viewing and amateur programming. But at
 
 Historically, the typical solution to get this kind of functionality is to use an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), or integrated development environment. Lua's best IDE is called [ZeroBrane Studio](https://studio.zerobrane.com/). This is even the solution [encouraged by Spider in the official API](https://moddingofisaac.com/docs/debugging.html).
 
-In order to get auto-completion in ZeroBrane, you will need to use [Yusyuriv's helpful repository](https://github.com/Yusyuriv/Afterbirth-API-for-ZeroBrane). Unfortunately, this is not completely up to date for the latest patches.
-
 I don't have any experience setting up ZeroBrane with Luacheck, although [it does appear possible as of July 2017](https://github.com/pkulchenko/ZeroBraneStudio/issues/768). I can't imagine that it is that hard, but you are on your own here.
+
+In order to get auto-completion in ZeroBrane, you will need to use [Yusyuriv's helpful repository](https://github.com/Yusyuriv/Afterbirth-API-for-ZeroBrane). Unfortunately, this is not completely up to date for the latest patches.
 
 While coding in ZeroBrane will definately make your life easier than coding in Notepad++, ZeroBrane may not be for everyone. It is not as extensible as the modern Chromium-based editors, if you care about that kind of thing. And more generally, you may feel more comfortable in using an editor that is not completely dedicated to Lua - especially if you regularly program in other programming languages. So if you don't want to use ZeroBrane, then let's talk about general-purpose editors.
 
@@ -71,15 +71,13 @@ However, Sublime Text is not free (costing $80) and is not open-source. In 2015,
 
 [VSCode](https://code.visualstudio.com/) was also released in 2015 by Microsoft, although not many people cared at the time. It uses almost the exact same technology as Atom (being Electron / Chromium based), but it remains under active development by the company. What makes VSCode stand out from Atom is its speed - the editor is noticably faster than Atom, but spouts nearly identical features and equally robust customizability. Because of this, VSCode exploded in popularity in 2018 and has now taken the throne from Atom as the best text-editor for general-purpose programming.
 
-It is now 2019, so if you are not using ZeroBrane, you should probably be using VSCode. It has Luacheck integration and Afterbirth+ auto-completion. It is fast, everyone uses it, and it will probably also make you a more attractive and charismatic person.
-
-**TL;DR Use VSCode.**
+Nowadays, if you are not using ZeroBrane, you should probably be using VSCode. It has Luacheck integration, (some) Afterbirth+ auto-completion, and it is fast.
 
 <br />
 
 ## Installation
 
-These are step by step instructions for getting a working Isaac coding environment (VSCode + auto-complete + Luacheck) on a fresh Windows 10. If you are on macOS or Linux, you will have to tweak the commands accordingly.
+These are step by step instructions for getting a working Isaac coding environment (VSCode + Luacheck + auto-complete) on a fresh Windows 10. If you are on macOS or Linux, you will have to tweak the commands accordingly.
 
 Execute the following commands in an administrative command-prompt:
 
