@@ -24,7 +24,7 @@ If you answered yes to any of the above questions, then use **[Notepad++](https:
 
 ## The Long Answer
 
-For experts, Notepad++ doesn't cut it. Here's some stuff it is missing:
+For experts, Notepad++ doesn't cut it. Here is some stuff that it is missing:
 
 #### 1) Auto-Completion
 
