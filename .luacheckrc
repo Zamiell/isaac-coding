@@ -31,6 +31,7 @@ globals = {
   "EntityRef",
   "EntityType",
   "FamiliarVariant",
+  "Font",
   "Game",
   "GameStateFlag",
   "GetPtrHash",
