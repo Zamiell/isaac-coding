@@ -44,6 +44,7 @@ globals = {
   "Isaac",
   "ItemPoolType",
   "ItemType",
+  "KColor",
   "Keyboard",
   "KeySubType",
   "LaserOffset",
