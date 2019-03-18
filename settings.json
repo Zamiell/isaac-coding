@@ -21,6 +21,9 @@
     // The default value is 5.1, but Isaac uses 5.3
     "lua.targetVersion": "5.3",
 
+    // Disable the annoying release notes popup everytime that VSCode updates itself
+    "update.showReleaseNotes": false,
+
     // Show the full path of the file in the window title
     "window.title": "${activeEditorLong}${separator}${rootName}",
 
