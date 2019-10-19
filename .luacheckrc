@@ -42,6 +42,7 @@ globals = {
   "Input",
   "InputHook",
   "Isaac",
+  "ItemConfig",
   "ItemPoolType",
   "ItemType",
   "KColor",
