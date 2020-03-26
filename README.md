@@ -83,7 +83,7 @@ Execute the following commands in an administrative command-prompt:
 
 * Install [Chocolatey](https://chocolatey.org/) (if for some reason you don't have it installed already):
   * `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
-* Install [VSCode](https://code.visualstudio.com/):
+* Install [VSCode](https://code.visualstudio.com/) and [wget](https://www.gnu.org/software/wget/):
   * `choco install vscode wget -y`
   * `refreshenv`
 * Install the [vscode-lua extension](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) :
