@@ -119,6 +119,8 @@ When you program your Isaac mods, all of your code should "pass" the linter with
 
 Hopefully the above tutorial was useful in getting you up to speed with a working text-editor and a working linter. You might also be interested to read my opinions on [coding style](https://github.com/Zamiell/isaac-coding/blob/master/Style.md), which are altogether unrelated to getting a coding environment set up.
 
+<br />
+
 ## Community
 
 If you need immediate help, many people in the modding community hang out in the #modding channel of the [BoI Discord server](https://discord.gg/isaac).
