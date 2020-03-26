@@ -21,6 +21,6 @@ For the love of readability, and in accordance with the Lua-Users Wiki style gui
   * **don't have multiple statements on the same line!**
   * **write comments that explain what the code does!**
 
-Take some pride in your mod and make it a joy to read for the other modders out there who want to know how it works, copy-paste code snippets, or collaborate with you to add code and fix bugs.
+Take some pride in your mod and make it a joy to read for the other modders out there who want to know how it works, copy-paste code snippets, or collaborate with you to add code or fix bugs.
 
 And even if you give the Lua-Users Wiki style guide a read and decide against using it, find another popular style guide and stick to that - all of the code in your codebase should at least be internally consistent!
