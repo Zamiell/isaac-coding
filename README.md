@@ -43,7 +43,7 @@ Being able to tab-complete function calls saves you a lot of time. If you've eve
 * Good syntax highlighting.
 * The ability to manage folder structures with minimal hassle (e.g. a "project" view).
 * Cross-file search, so if you are working on multiple mods at a time you can search all of them easily. (And cross-file replace, so that you can easily refactor a function name throughout your entire mod.)
-* Git integration, so that you can see which files are changed and so forth. (If you don't already use Git, for the love of god why not.)
+* Git integration, so that you can see which files are changed and so forth. (If you don't already use Git, you should be - it's free and will save you hours and hours of time in the long run.)
 
 <br />
 
