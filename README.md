@@ -7,10 +7,9 @@ You might be wondering: **what text editor should I use to code Lua mods for *[T
 ## Table of Contents
 
 1. [The Short Answer](#the-short-answer)
-2. [The Long Answer](#the-long-answer)
-3. [Installation](#installation)
-4. [Style](#style)
-5. [Community](#community)
+1. [The Long Answer](#the-long-answer)
+1. [Installation](#installation)
+1. [Community](#community)
 
 <br />
 
