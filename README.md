@@ -73,11 +73,11 @@ Notepad++ is great for both general file viewing and amateur programming. But at
 
 Historically, the typical solution to get this kind of functionality is to use an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment), or integrated development environment. Lua's best IDE is called [ZeroBrane Studio](https://studio.zerobrane.com/). This is even the solution [encouraged by Spider in the official API](https://moddingofisaac.com/docs/debugging.html).
 
-I don't have any experience setting up ZeroBrane with Luacheck, although [it does appear possible as of July 2017](https://github.com/pkulchenko/ZeroBraneStudio/issues/768). I can't imagine that it is that hard, but you are on your own here.
+You can [set up ZeroBrane with Luacheck](https://github.com/pkulchenko/ZeroBraneStudio/issues/768) as of July 2017. And you can also [set up auto-complete](https://github.com/Yusyuriv/Afterbirth-API-for-ZeroBrane) using Yusyuriv's helpful repository. Unfortunately, the API definitions are very old and are missing all of the Booster Pack stuff and all of the Repentance stuff.
 
-In order to get auto-completion in ZeroBrane, you will need to use [Yusyuriv's helpful repository](https://github.com/Yusyuriv/Afterbirth-API-for-ZeroBrane). Unfortunately, this is not completely up to date for the latest patches.
+While coding in ZeroBrane will definately make your life easier than coding in Notepad++, ZeroBrane may not be for everyone. It is not as extensible as the modern Chromium-based editors, if you care about that kind of thing. And you may feel more comfortable in an editor that is not completely dedicated to Lua - especially if you regularly program in other programming languages. So if you don't want to use ZeroBrane, then let's talk about general-purpose editors.
 
-While coding in ZeroBrane will definately make your life easier than coding in Notepad++, ZeroBrane may not be for everyone. It is not as extensible as the modern Chromium-based editors, if you care about that kind of thing. And more generally, you may feel more comfortable in using an editor that is not completely dedicated to Lua - especially if you regularly program in other programming languages. So if you don't want to use ZeroBrane, then let's talk about general-purpose editors.
+<br />
 
 #### A History of the Best Text Editors
 
