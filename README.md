@@ -22,6 +22,8 @@ Are you looking to get started as fast as possible? Do you have zero programming
 
 If you answered yes to any of the above questions, then use **[Notepad++](https://notepad-plus-plus.org/download/v7.6.3.html)**. It is a fantastic text editor that is simple and fast - there is **no need to invest a bunch of time and effort** in going for more complex solutiions. You may now stop reading this tutorial.
 
+<br />
+
 ### Expert
 
 Are you an expert coder? Do you plan to spend hundreds of hours coding Isaac mods? Do you want full auto-complete and type safety?
