@@ -34,6 +34,8 @@ Then use **[VSCode](https://code.visualstudio.com/)** with [IsaacScript](https:/
 
 For experienced coders, Notepad++ doesn't cut it. Here is some stuff that it is missing:
 
+<br />
+
 #### 1) Linting
 
 Nowadays, most programmers use [linters](https://en.wikipedia.org/wiki/Lint_(software)), which are static analysis tools to help catch bugs and force adherence to a style guide. Linters are **especially useful** in weakly-typed languages such as [Lua](https://github.com/mpeterv/luacheck/), [Python](https://www.pylint.org/), and [JavaScript](https://eslint.org/). Even in strongly-typed languages such as [Golang](https://github.com/golangci/golangci-lint/), linters are quickly becoming standard.
@@ -42,11 +44,15 @@ Why are linters such a big deal? For example, say that you accidentally make a t
 
 The best Lua linter out there is called [Luacheck](https://github.com/mpeterv/luacheck/), so you will want a text-editor that supports that.
 
+<br />
+
 #### 2) Auto-Completion
 
 Being able to tab-complete function calls saves you a lot of time. If you've ever programmed in any kind of IDE before, you will know how useful this is. Enough said.
 
-#### 3) Misc.
+<br />
+
+#### 3) Other Miscellaneous Stuff
 
 * Good syntax highlighting.
 * The ability to manage folder structures with minimal hassle (e.g. a "project" view).
