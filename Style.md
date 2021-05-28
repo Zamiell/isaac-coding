@@ -1,6 +1,6 @@
 ## Coding Style
 
-If want to be the best programmer you can be, it is always worthwhile to stop to think about the style that you code in.
+A lot of times, we type up code that works and we don't give it too much thought. But it can be worthwhile to stop to think for a moement about the style that you code in.
 
 It is fairly common for programmers to use conventions from old programming languages when they learn new ones. Jumping between JavaScript, Python, and Perl, I used to have hard-set notions about what was "correct" in terms of whether to use tabs or spaces, how to break up long lines, and so forth.
 
