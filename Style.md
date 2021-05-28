@@ -12,15 +12,8 @@ This "feature" of Golang is like a superpower and it really feels amazing. But g
 
 I kind of stumbled upon this lesson, but in truth, this concept has been well known to programmers for a long time. Guido, the creator of Python, famously said: ["Readability counts"](https://www.python.org/dev/peps/pep-0008/). One of Guido's great insights was that code is read much more often than it is written.
 
-When you write your own Isaac mods, you could just code it however you want. No-one is stopping you, and it is just an Isaac mod, after all. But remember, readability counts! **Don't write Lua like you would write Python, JavaScript, or anything else. Write Lua like how other Lua coders do.**
+When you write your own Isaac mods, you could just code it however you want. No-one is stopping you, and it is just an Isaac mod, after all. But remember the lessons of Guido and other great programmers like this - readability counts! If you want to have the superpower I am describing in this blog, then **you don't write Lua like you would write Python, JavaScript, or anything else. Write Lua like how other Lua coders do.**
 
 While Lua does not have an official style standard [like Python does](https://www.python.org/dev/peps/pep-0008/), **the most popular Lua style guide in the world is the [Lua-Users Wiki style guide](http://lua-users.org/wiki/LuaStyleGuide)**, so it makes a lot of sense to use this and stick to it.
-
-For the love of readability, and in accordance with the Lua-Users Wiki style guide:
-  * **don't use tabs, use 2 spaces to indent!**
-  * **don't have multiple statements on the same line!**
-  * **split up your code into small functions and make your code readable!**
-
-Take some pride in your mod and make it a joy to read for the other modders out there who want to know how it works, copy-paste code snippets, or collaborate with you to add code or fix bugs.
 
 And even if you give the Lua-Users Wiki style guide a read and decide against using it, find another popular style guide and stick to that - all of the code in your codebase should at least be internally consistent!
