@@ -19,7 +19,7 @@ While Lua does not have an official style standard [like Python does](https://ww
 For the love of readability, and in accordance with the Lua-Users Wiki style guide:
   * **don't use tabs, use 2 spaces to indent!**
   * **don't have multiple statements on the same line!**
-  * **write comments that explain what the code does!**
+  * **split up your code into small functions and make your code readable!**
 
 Take some pride in your mod and make it a joy to read for the other modders out there who want to know how it works, copy-paste code snippets, or collaborate with you to add code or fix bugs.
 
